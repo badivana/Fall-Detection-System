@@ -1,3 +1,11 @@
+![Arduino](https://img.shields.io/badge/Arduino-Embedded-blue)
+![TinyML](https://img.shields.io/badge/TinyML-Machine%20Learning-green)
+![Python](https://img.shields.io/badge/Python-3.x-yellow)
+![License](https://img.shields.io/badge/License-MIT-success)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+<p align="center">
+<img src="images/banner.png" width="900">
+</p>
 # 🚨 Fall Detection System
 
 An AI-powered Fall Detection System built using Arduino and motion sensors to detect accidental falls in real time. The project uses a trained machine learning model to classify sensor data and identify fall events.
@@ -86,6 +94,37 @@ Install the libraries required by the project using the Arduino Library Manager.
 3. The embedded machine learning model classifies the motion.
 4. If a fall is detected, the system triggers an alert or detection event.
 
+## Work Flow
+MPU6050
+      │
+      ▼
+Acceleration + Gyroscope
+      │
+      ▼
+Feature Extraction
+      │
+      ▼
+Embedded ML Model
+      │
+      ▼
+Fall Classification
+      │
+      ▼
+Alert
+---
+
+## Hardware Workflow
+
+MPU6050
+     │
+     ▼
+Arduino
+     │
+     ▼
+TinyML Model
+     │
+     ▼
+Decision
 ---
 
 ## 📁 Files
