@@ -3,9 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.x-yellow)
 ![License](https://img.shields.io/badge/License-MIT-success)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-<p align="center">
-<img src="images/banner.png" width="900">
-</p>
+
 # 🚨 Fall Detection System
 
 An AI-powered Fall Detection System built using Arduino and motion sensors to detect accidental falls in real time. The project uses a trained machine learning model to classify sensor data and identify fall events.
